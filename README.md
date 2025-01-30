@@ -20,7 +20,7 @@ Figure1
 Table 1 presents the $$CRPS_{sum}$$ and $$NRMSE_{sum}$$ values, averaged over 10 independent runs. In comparison, traditional baseline models (e.g., GP-Copula and Timegrid) have higher $$CRPS_{sum}$$ values on most datasets, which indicates their difficulty in handling complex time series data. Compared to modern deep generative models (e.g., $$D^{3}VAE$$ and TACTIS), KooNPro achieves a better balance between predictive stability and accuracy. Although MG-TSD shows a slight advantage in $$NRMSE_{sum}$$ on certain datasets, its $$CRPS_{sum}$$ fluctuates significantly, suggesting an inadequate characterization of distributional uncertainty. KooNPro introduces variance-aware spectrum to enhance global pattern capturing, avoiding spectrum instability caused by local perturbations, thus achieving higher stability and accuracy in handling complex nonlinear patterns. This demonstrates its effectiveness in high-dimensional time series forecasting.
 
 <p align="center">  
-  <img src="pics/metrics.png" alt="alt text" width="100%"/>
+  <img src="pics/metrics.jpg" alt="alt text" width="100%"/>
 <br/>
 Table 1
 </p>  
