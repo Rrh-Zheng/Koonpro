@@ -73,6 +73,8 @@ if args.is_training:
     exp = Exp(args)
     print('>>>>>>>start training : {}>>>>>>>>>>>>>>>>>>>>>>>>>>'.format(setting))
     exp.train(setting)
+    crps, nrmse = exp.metric(setting, 'test')
+    print('crps_sum:', crps, 'nrmse_sum', nrmse)
 
 else:
     ii = 0
@@ -89,4 +91,4 @@ else:
     exp = Exp(args)
     crps, nrmse = exp.metric(setting, 'test')
     print('crps_sum:', crps, 'nrmse_sum', nrmse)
-    # exp.plot_interval(setting, 'test')
+    exp.plot_interval(setting, 'test')
