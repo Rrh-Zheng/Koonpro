@@ -9,7 +9,7 @@ The detailed overview of KooNPro, with the complete architecture illustrated in 
 obtaining a variance-aware continuous spectrum for prediction which is demonstrated by the shadowed box in Figure 1.
 
 <p align="center">  
-  <img src="pics/model.png" alt="alt text" width="100%"/>
+  <img src="pics/model.jpg" alt="alt text" width="100%"/>
 <br/>
 Figure1
 </p>  
@@ -28,7 +28,7 @@ Table 1
 Figure 2 visualizes the predictive result on the solar dataset. The right panel gives a scatter plot of MAE versus prediction variance showing a correlation of $0.94$ with a significance level near zero, confirming that KooNPro effectively captures temporal dynamics and ensures reliable predictions. The left panel visualizes the ground truth and predictions for the first eight plants over 24 hours. The results demonstrate that KooNPro accurately captures the temporal fluctuations in Solar energy generation: the predicted mean closes to zero during nighttime and rises to varying peaks during daylight hours for each plant. Furthermore, the prediction intervals widen during sunlight and night periods, corresponding to the peak and trough of Solar fluctuations, reflecting the reliability of the predictions.
 
 <p align="center">  
-  <img src="pics/solar.png" alt="alt text" width="100%"/>
+  <img src="pics/solar.jpg" alt="alt text" width="100%"/>
 <br/>
 Figure2
 </p>  
