@@ -36,8 +36,8 @@ Figure2
 ## Quick start
 According to ablation study, we record the best setting of nine datasets and save as **.json** files. For example, we give a quick start for the solar dataset.
 ```
-CONFIG_FILE="/setting/solar_args.json" 
-$PYTHON_CMD run.py --config $CONFIG_FILE
+config_file="/setting/solar_args.json" 
+$python run.py --config $config_file
 ```
 
 ## Citation
